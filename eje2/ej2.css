@@ -1,0 +1,25 @@
+body{
+   display: flex; 
+   flex-direction: column;
+   height: 100vh;
+   margin: 0;
+}
+header,nav,main,footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: plum;
+}
+nav{
+    background-color: blueviolet;
+}
+main{
+    background-color: white;
+    flex-grow: 1;
+}
+footer{
+    background-color: mediumpurple;
+}
+    
