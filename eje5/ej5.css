@@ -1,0 +1,39 @@
+header {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+}
+.left-panel {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
+main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+footer {
+    background-color: mediumorchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+}
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
