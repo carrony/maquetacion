@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    height: 100vh;
+    text-align: center;
+}
+
+.cabecera, .menu_ppal, .lateral, .central main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera, .pie {
+    flex-grow: 0.2;
+}
+
+.cabecera {
+    background-color: #ffcdff;
+}
+
+.menu_ppal {
+    background-color: #ab43ef;
+    color:white
+}
+
+.central {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 8;
+}
+
+.lateral {
+    background-color: #ff9afe;
+    flex-grow:1;
+}
+
+.central main {
+    flex-grow: 8;
+}
+
+.pie {
+    background-color: #cb84f8;
+}
